@@ -60,3 +60,5 @@ public class DiceGame2Test {
 	}
 
 }
+
+// Good job, and may I count on you to explain to the class how the toString worked for your Automobilt object?  I know you can do it.
