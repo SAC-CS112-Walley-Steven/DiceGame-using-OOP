@@ -18,7 +18,7 @@ public class DiceGame2Test {
 		int diceCount = Integer.parseInt(JOptionPane.showInputDialog("Enter the number of Dice to play with: "));
 		dice.setDiceCount(diceCount);
 		
-		String welcome = String.format("Hi %s,\nWelcome to the Dice Game!", dice.getName());
+		String welcome = String.format("Hi %s,\nYou chose to play with %d dice.", dice.getName(), dice.getDiceCount());
 		
 		do
 		{
